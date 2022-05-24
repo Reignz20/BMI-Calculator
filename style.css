@@ -1,0 +1,101 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #646FD4;
+}
+
+.container{   
+    position: absolute;
+    top:10%;
+    left: 40%;
+    border: 3px solid black;
+    border-radius: 4px;
+    width:400px;
+    height:350px;
+    background-color:#F7F7F7;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+
+.height{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#height{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.weight{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#weight{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.calculate{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#calculateButton{
+    height:30px;
+    width: 150px;
+    border: none;
+    background-color: #e2e2e2;
+}
+
+#calculateButton:hover{
+    background-color: #00FFAB;
+    transition: 0.7s;
+}
+
+.clear{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#clearButton{
+    height:30px;
+    width: 150px;
+    border: none;
+    background-color: #e2e2e2;
+}
+
+#clearButton:hover{
+    background-color: #ffbb00;
+    transition: 0.7s;
+}
+
+
+.result{
+    display:flex;
+    justify-content: center;
+}
