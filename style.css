@@ -68,6 +68,7 @@ body{
     width: 150px;
     border: none;
     background-color: #e2e2e2;
+    cursor: pointer;
 }
 
 #calculateButton:hover{
@@ -87,6 +88,7 @@ body{
     width: 150px;
     border: none;
     background-color: #e2e2e2;
+    cursor: pointer;
 }
 
 #clearButton:hover{
